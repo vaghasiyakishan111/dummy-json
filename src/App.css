@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
-}
+/* ::selection{
+    color: rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+} */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.search{
+    width: 540px;
+    border: 2px solid black;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.dropdown{
+    margin-left: -24px;
+    border: 2px solid black;
+    border-left: 0px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.space p{
+    margin-right: 13px;
+    cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
+.space p:hover{
+    color: blue;
+    text-decoration: underline;
 }
+.img1{
+    height: 250px;
+    width: 100%;
+    padding: 13px;
+    transition: 0.4s;
+}
+.bg-border{
+    border: 2px solid black;
+}
+/* .container1{
+    width: 1100px;
+    ju;
+} */
+.img1:hover{
+    transform: scale(1.1);
+    overflow: hidden;
+    transition: 0.4s;
+}
+.hovertitle:hover{
+    color: darkgray;
+    cursor: pointer;
+    transform:translate(10px );
+    transition: .4s;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+}
+.hovertitle{
+    transition: .4s;
+
+}
+.dd{
+    border: 2px solid black;
+    background-color: rgb(234, 234, 234);
+    /* margin-top: 40px; */
+}
+.font{
+    font-size: 11px;
+}
+.image-h{
+    width: 500px;
+    height: 400px;
+}
+.smallimage{
+    height: 90px;
+    width: 90px;
 }
