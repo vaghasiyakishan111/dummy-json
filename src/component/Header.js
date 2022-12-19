@@ -5,7 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Dropdown from 'react-bootstrap/Dropdown';
 import {useState} from 'react';
 
-function Header({onSearchchange}) {
+// function Header({onSearchchange}) {
+    function Header() {
     
 
    
@@ -23,7 +24,8 @@ function Header({onSearchchange}) {
                     </div>
 
                     <div className="col-auto">
-                        <input type="text"  placeholder="search for anything" className="mt-2 search p-2" onChange={(e)=> onSearchchange(e.target.value.toLocaleLowerCase())} />
+                        {/* <input type="text"  placeholder="search for anything" className="mt-2 search p-2" onChange={(e)=> onSearchchange(e.target.value.toLocaleLowerCase())} /> */}
+                        <input type="text"  placeholder="search for anything" className="mt-2 search p-2"  />
                        
                
            
